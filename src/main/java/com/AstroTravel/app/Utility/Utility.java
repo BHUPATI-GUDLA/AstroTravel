@@ -55,7 +55,7 @@ public class Utility {
 		return otp.toString();
 	}
 
-	public void sendMail(String senderMailId, String receiverMailId, String subject, String body) {
+	public boolean sendMail(String senderMailId, String receiverMailId, String subject, String body) {
 		try {
 //            log.info("The mail is sending to {} from {}", receiverMailId, senderMailId);
 			System.out.println("The mail is sending to {} from");
@@ -66,8 +66,10 @@ public class Utility {
 			mailMessage.setText(body);
 			// enable when you want to start the sending mail
 			javaMailSender.send(mailMessage);
+			return true;
 		} catch (Exception e) {
 //            log.error("Error accorded while sending mail",e);
+			return false;
 		}
 	}
 }

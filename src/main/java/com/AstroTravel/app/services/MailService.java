@@ -1,5 +1,6 @@
 package com.AstroTravel.app.services;
 
+import com.AstroTravel.app.Utility.GlobalMapHolder;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
@@ -9,12 +10,11 @@ import com.AstroTravel.app.Utility.Utility;
 
 import lombok.extern.slf4j.Slf4j;
 
+import java.util.Map;
+
 @Service
 @Slf4j
 public class MailService {
-
-	@Autowired
-	private Utility utility;
 
 	@Value("${spring.mail.username}")
 	private String senderId;
@@ -22,47 +22,27 @@ public class MailService {
 	@Value("${mail.subject}")
 	private String subject;
 
-	private String receiverId;
+	private final Utility utility;
 
-	private String body;
+	// Remove this once used
+	@Autowired
+	private GlobalMapHolder globalMapHolder;
 
-	public String getReceiverId() {
-		return receiverId;
+	public MailService(Utility utility){
+		this.utility = utility;
 	}
 
-	public void setReceiverId(String receiverId) {
-		this.receiverId = receiverId;
+	/**
+	 *
+	 * @param emailId
+	 * @param otp
+	 * only use to send email
+	 */
+	public void sendOtpOnMail(String emailId, String otp){
+		utility.sendMail(senderId, emailId, subject, "Hello, " + utility.fetchUserName(emailId) + " This is your One Time Password: " + otp);
 	}
 
-	public String getBody() {
-		return body;
-	}
-
-	public void setBody(String body) {
-		this.body = body;
-	}
-
-	public EmailDTO sendEmail(EmailDTO emailDTO) {
-		try {
-			if (utility.validateEmailId(emailDTO.getEmailId())) 
-			{
-				emailDTO.setOTP(utility.generateOTP(6, false));
-				// Setting the mailId of the Receiver
-				setReceiverId(emailDTO.getEmailId());
-
-				// Setting the Body of the mail to be send
-				setBody("Hello, " + utility.fetchUserName(receiverId) + " This is your One Time Password: "+ emailDTO.getOTP());
-				utility.sendMail(senderId, receiverId, subject, body);
-			}	
-			return emailDTO;		
-		} catch(Exception e) {
-			e.printStackTrace();
-			return new EmailDTO("abc@gmail.com", "123456");
-		}
-		
-	}
-
-	public boolean validateOTP(EmailDTO emailDTO) {
-		return true;
-	}
+	public boolean validateOTP(String emailId, String otp) {
+        return otp.equals(globalMapHolder.get(emailId));
+    }
 }
