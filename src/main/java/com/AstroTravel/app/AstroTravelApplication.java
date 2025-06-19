@@ -1,7 +1,5 @@
 package com.AstroTravel.app;
 
-import com.AstroTravel.app.components.MailTesterComponent;
-import com.AstroTravel.app.services.MailServices;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
@@ -12,8 +10,8 @@ public class AstroTravelApplication {
 	public static void main(String[] args) {
 
 		ApplicationContext applicationContext = SpringApplication.run(AstroTravelApplication.class, args);
-		MailTesterComponent mailTesterComponent = applicationContext.getBean(MailTesterComponent.class);
-		mailTesterComponent.sendMailToFriend();
+//		MailTesterComponent mailTesterComponent = applicationContext.getBean(MailTesterComponent.class);
+//		mailTesterComponent.sendMailToFriend();
 	}
 
 }
