@@ -1,30 +1,17 @@
 package com.AstroTravel.app.DTO;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.RequiredArgsConstructor;
-import lombok.Setter;
-
-@Setter
-@Getter
-@Data
-@Builder
-@AllArgsConstructor
-@NoArgsConstructor
-@RequiredArgsConstructor
 public class EmailDTO {
-	
-	private String emailId;
-	
-	private String OTP;
 
-	public EmailDTO(String emailId, String oTP) {
+	private String emailId;
+	private String OTP;
+	private boolean genrateOtp;
+
+	public EmailDTO(String emailId, String OTP, boolean genrateOtp) {
 		this.emailId = emailId;
-		OTP = oTP;
+		this.OTP = OTP;
+		this.genrateOtp = genrateOtp;
 	}
+
 
 	public String getEmailId() {
 		return emailId;
@@ -38,10 +25,15 @@ public class EmailDTO {
 		return OTP;
 	}
 
-	public void setOTP(String oTP) {
-		OTP = oTP;
+	public void setOTP(String OTP) {
+		this.OTP = OTP;
 	}
-	
-	
-	
+
+	public boolean isGenrateOtp() {
+		return genrateOtp;
+	}
+
+	public void setGenrateOtp(boolean genrateOtp) {
+		this.genrateOtp = genrateOtp;
+	}
 }

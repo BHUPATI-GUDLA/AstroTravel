@@ -4,7 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="408498e2-d8a7-4747-a39d-b35dd6906314" name="Changes" comment="" />
+    <list default="true" id="408498e2-d8a7-4747-a39d-b35dd6906314" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/AstroTravel/app/Controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/AstroTravel/app/Controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/AstroTravel/app/DTO/EmailDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/AstroTravel/app/DTO/EmailDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/AstroTravel/app/Errors/InvalidException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/AstroTravel/app/Errors/InvalidException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/AstroTravel/app/services/LoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/AstroTravel/app/services/LoginService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/com.AstroTravel/demo/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/com.AstroTravel/demo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/AstroTravel/app/AstroTravelApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/AstroTravel/app/AstroTravelApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/AstroTravel/app/Controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/AstroTravel/app/Controller/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/AstroTravel/app/DTO/EmailDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/AstroTravel/app/DTO/EmailDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/AstroTravel/app/Errors/InvalidEmailIdException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/AstroTravel/app/Errors/InvalidEmailIdException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/AstroTravel/app/Errors/InvalidException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/AstroTravel/app/Errors/InvalidException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/AstroTravel/app/Utility/Utility.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/AstroTravel/app/Utility/Utility.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/AstroTravel/app/services/LoginService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/AstroTravel/app/services/LoginService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/AstroTravel/app/services/MailService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/AstroTravel/app/services/MailService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/AstroTravel/app/AstroTravelApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/AstroTravel/app/AstroTravelApplicationTests.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,9 +46,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2yNR31cEsy2fIzrj0XtrrCDIkcd" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -37,15 +56,22 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.AstroTravelApplication.executor": "Run",
+    "Application.AstroTravelApplication.executor": "Debug",
+    "Maven.demo [clean].executor": "Run",
+    "Maven.demo [install].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "develop",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/bgudla/Documents/Persnol Project/Backend/AstroTravel",
-    "settings.editor.selected.configurable": "Errors"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.AstroTravel.app.Utility" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="AstroTravelApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.AstroTravel.app.AstroTravelApplication" />
@@ -76,5 +102,26 @@
       <updated>1749672841447</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/AstroTravel/app/services/LoginService.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/AstroTravel/app/services/LoginService.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/AstroTravel/app/services/LoginService.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
