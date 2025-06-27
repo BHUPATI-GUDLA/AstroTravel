@@ -5,24 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="408498e2-d8a7-4747-a39d-b35dd6906314" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/AstroTravel/app/Controller/DashboardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/AstroTravel/app/DTO/DashboardDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/AstroTravel/app/Respose/DashboardResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/AstroTravel/app/Respose/GenericResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/AstroTravel/app/services/DashboardService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/AstroTravel/app/Controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/AstroTravel/app/Controller/LoginController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/AstroTravel/app/DTO/EmailDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/AstroTravel/app/DTO/EmailDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/AstroTravel/app/Errors/InvalidException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/AstroTravel/app/Errors/InvalidException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/AstroTravel/app/services/LoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/AstroTravel/app/services/LoginService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/com.AstroTravel/demo/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/com.AstroTravel/demo/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/AstroTravel/app/AstroTravelApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/AstroTravel/app/AstroTravelApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/AstroTravel/app/Controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/AstroTravel/app/Controller/LoginController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/AstroTravel/app/DTO/EmailDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/AstroTravel/app/DTO/EmailDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/AstroTravel/app/Errors/InvalidEmailIdException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/AstroTravel/app/Errors/InvalidEmailIdException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/AstroTravel/app/Errors/InvalidException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/AstroTravel/app/Errors/InvalidException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/AstroTravel/app/Utility/Utility.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/AstroTravel/app/Utility/Utility.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/AstroTravel/app/services/LoginService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/AstroTravel/app/services/LoginService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/AstroTravel/app/services/MailService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/AstroTravel/app/services/MailService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/AstroTravel/app/AstroTravelApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/AstroTravel/app/AstroTravelApplicationTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +47,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.AstroTravelApplication.executor": "Debug",
+    "Application.AstroTravelApplication.executor": "Run",
     "Maven.demo [clean].executor": "Run",
     "Maven.demo [install].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -64,7 +55,7 @@
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/bgudla/Documents/Persnol Project/Backend/AstroTravel",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors"
   }
 }]]></component>
   <component name="RecentsManager">
